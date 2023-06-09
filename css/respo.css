@@ -1,0 +1,111 @@
+@media screen and (max-width:1000px) {
+    body {
+        background-color: red;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    header {
+        height: 21vh;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .slider {
+        width: 100vw;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 2px;
+        overflow-x: scroll;
+    }
+
+    .item {
+        margin: 0 14px;
+    }
+
+    .log {
+        margin-left: 331px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    body {
+        background-color: white;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    .slider {
+        height: 32vh;
+    }
+
+    .item {
+        margin: 0 20px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 2px;
+        overflow-x: scroll;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 0 4vw 0 3vw;
+    }
+
+    .btn {
+        margin-right: 34vw;
+        margin-left: -1vw;
+    }
+
+    .log {
+        margin-top: 0vh;
+        margin-left: -20vh;
+    }
+
+    .sign {
+        margin-top: 0vh;
+        margin-left: 1vh;
+    }
+
+    .bar2 {
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+    }
+}

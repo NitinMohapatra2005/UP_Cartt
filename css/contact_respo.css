@@ -1,0 +1,112 @@
+@media screen and  (max-width:700px){
+    header{
+        margin: 0px;
+    }
+    main{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content{
+        width:58vw;
+        height: 69vh;
+    }
+    
+    .box2{
+        overflow: scroll;
+    }
+    .head{
+        margin-right: 8vw;
+    }
+
+    .nmphn input {
+        margin-right: 36px;
+        width: 9vw;
+      }
+
+      .mailsub input {
+        margin-right: 36px;
+        width: 9vw
+    }
+
+    .message {
+        display: flex;
+        margin-left: 9vw;              
+}
+
+    .message input {
+        width: 36vw;
+        height: 13vh;
+    
+    }
+
+    .btn{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 21vw;
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width:400px){
+    .btn {
+    display: flex;
+    margin-right: 24vw;
+    margin-top: 6vh;
+    }
+
+    .content{
+        width:58vw;
+        height: 70vh;
+    }
+
+    .message {
+        display: flex;
+        margin-left: 6vw;
+      }
+    
+}
+
+@media screen and (min-width:700px) and  (max-width:1100px){
+    .message {
+        display: flex;
+        /* margin-right: 20vw; */
+    }
+    .message input{
+        width: 24em;
+        height: 10vh
+    }
+
+    .btn {
+        display: flex;
+        margin-right: 19em;
+        margin-top: 6vh;
+      }
+
+    .content{
+        height: 68vh;
+        width: 57vw
+    }
+
+    main{
+        display: inline-flex;
+        margin-left:0px;
+    }
+
+    header{
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+    }
+
+    .head {
+        display: flex;
+        margin-left: 5em;
+        width: 12em;
+    }
+
+    
+
+    .box2{
+        overflow: scroll;
+        width: 40vw
+    }
+}

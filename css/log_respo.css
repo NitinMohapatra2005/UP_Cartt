@@ -1,0 +1,121 @@
+@media screen and (max-width:360px) {
+    body {
+        background-color: black;
+    }
+
+    .log {
+        height: 68vh;
+        width: 94vw;
+    }
+
+    .lines h1 {
+        font-size: 4vh;
+    }
+
+    .checks {
+        font-size: 2vh;
+    }
+
+    .submit input {
+        width: 16vw;
+    }
+
+    .subbtn {
+        border-radius: 2vh;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+    .log {
+        background-color: white;
+        margin: 18vh auto;
+        border: 2px solid black;
+        height: 65vh;
+        width: 94vw;
+        border-radius: 44px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+        height: 12vh
+    }
+
+    .logo img {
+        height: 11vh;
+        width: 40vw;
+    }
+
+    .lines {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+    }
+
+    .lines h1 {
+        margin-left: auto;
+        margin-bottom: 1vh;
+        margin-right: auto;
+    }
+
+    .lines p {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .mailpass {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+
+    .mailpass input {
+        width: 29vw;
+        margin: 3px auto;
+    }
+
+    .checks {
+        display: flex;
+        color: black;
+        margin-bottom: 3vh;
+        justify-content: space-between;
+        font-size: small;
+    }
+
+    .submit input {
+        height: 5vh;
+        width: 24vw;
+    }
+
+    .crtaccn {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .subbtn {
+        border-radius: 3vh;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:400px) {
+    .log {
+        height: 63vh;
+        width: 94vw;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .log {
+        height: 48vh;
+    }
+
+    .subbtn {
+        width: 11vw;
+    }
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    border: 4px solid;
+    display: flex;
+    justify-content: flex-start;
+    background-color: dodgerblue;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 81px;
+}
+
+.content {
+    /* height: calc(100vh - -430vh - 10vh); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec1 {
+    background-color: #ffde13;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50.9vh;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logoinfo {
+    margin: 7px 0 7px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif
+}
+
+.exp {
+    display: flex;
+    margin-top: 81px;
+
+}
+
+.expimg {
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+.exp p {
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.mark {
+    display: flex;
+    margin-top: 81px;
+}
+
+.para2 {
+    margin-left: 56px
+}
+.work{
+    display: flex;
+    margin-top: 81px;
+}
+.work p{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.work img{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.care{
+    display: flex;
+    margin-top: 81px;
+}
+.para4{
+    margin-left: 56px
+}
+footer{
+    height: 10vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

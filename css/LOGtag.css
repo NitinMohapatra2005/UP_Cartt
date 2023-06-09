@@ -1,0 +1,18 @@
+.empass{
+    width: 16vw;
+    margin:  3px auto;
+}
+.subbtn:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.checks label:hover{
+    cursor: pointer;
+    color: blue;
+}
+.crtaccn a:hover{
+    color: blue;
+}
+.crtaccn a{
+    text-decoration: none;
+}

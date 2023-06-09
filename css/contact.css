@@ -1,0 +1,128 @@
+/* *{
+    margin: 0;
+    padding: 0; */
+
+body {
+    background-color: rgba(85,255,229,255);
+}
+
+header {
+    margin-top: 7px;
+    margin-left: 92px;
+}
+header p{
+    margin-bottom: -16px;
+}
+
+header h2{
+    margin-bottom: -14px;
+}
+main {
+    display: inline-flex;
+    margin-left: 92px;
+    margin-top: 57px;
+}
+
+.content {
+    margin: auto;
+    width: 52vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color:  #2626c6;
+}
+.bio{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px solid black;
+}
+.textarea{
+    border: 1px outset black;
+}
+.head {
+    margin-right: 250px;
+}
+
+.nmphn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px 0 6px
+}
+
+.mailsub {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0 23px 0;
+}
+
+.mailsub input {
+    margin-right: 36px;
+}
+
+.nmphn input {
+    margin-right: 36px;
+}
+
+.message {
+    display: flex;
+    margin-right: 32px;
+}
+
+.message input {
+    width: 31vw;
+    height: 20vh;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 33px;
+}
+
+
+.box2 {
+    background-color: rgba(28,0,181,255);
+    width: 34vw;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 36px;
+    box-sizing: border-box;
+}
+
+.para1{
+    display: inline;
+}
+.para2{
+    display: inline;
+    margin-left: 30px;
+}
+.para3{
+    display: inline;
+    margin-left: 26px;
+}
+
+.Addressinfo{
+    display: flex;
+}
+.Emailinfo{
+    display: flex;
+}
+.Phninfo{
+    display: flex;
+}
+.subinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+
+.para4{
+    margin-top: -10px;
+}
+
+.para5{
+    width: 45vw;
+}

@@ -1,0 +1,13 @@
+.btn input {
+    height: 30px;
+    width: 59px;
+    background-color: #2626c6;
+    color: white;
+    border-radius: 17px;
+}
+.btn{
+    margin-right: 332px;
+}
+.btn input:hover{
+    cursor: pointer;
+}

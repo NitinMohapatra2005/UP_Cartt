@@ -1,0 +1,119 @@
+@media screen and (max-width:360px){
+    body{
+        background-color: black;
+    }
+
+    .log{
+        height: 68vh;
+        width:94vw
+    }
+
+    .lines h1{
+        font-size: 4vh;
+    }
+
+    .checks{
+        font-size: 2vh;
+    }
+
+    .submit input{
+        width: 19vw;
+    }
+
+    .subbtn{
+        border-radius: 2vh;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .log{
+        background-color: white;
+        margin: 18vh auto;
+        border: 2px solid black;
+        height: 65vh;
+        width: 94vw;
+        border-radius: 44px;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+        height: 12vh;
+    }
+
+    .logo img{
+        height: 11vh;
+        width: 40vw;
+    }
+
+    .lines{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        align-items: center;
+    }
+
+    .lines h1{
+        margin-left: auto;
+        margin-bottom: 1vh;
+        margin-right: auto;
+    }
+
+    .lines p{
+        margin-left: auto;
+        margin-right: auto 
+    }
+
+    .mailpass{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+
+    .mailpass input{
+        width: 29vw;
+        margin: 3px auto;
+    }
+
+    .checks{
+        margin-bottom: 3vh;
+        justify-content: space-between;
+        font-size: small;
+    }
+
+    .subbtn{
+        height: 5vh;
+        width: 19vw;
+        border-radius: 3vh;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1100px) {
+   .log{
+    height: 50vh;
+   } 
+   
+   .subbtn{
+    width:11vw;
+   }
+
+   .subbtn:hover{
+    /* background-color: blue; */
+    cursor: pointer;
+    font-weight: bolder;
+}
+}
+@media screen and (min-width:360px) and (max-width:400px) {
+    .log {
+        height: 63vh;
+        width: 94vw;
+    }
+    .subbtn{
+        width: 20vw;
+    }
+
+}
